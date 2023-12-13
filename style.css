@@ -1,0 +1,54 @@
+
+
+#parentInput{
+    /* border: 1px solid red; */
+    height: 15vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-outline-success{
+    margin-left: -0.5rem;
+}
+
+body#body{
+    background-color: black;
+}
+
+form{
+    width: 35rem;
+}
+.list-group{
+    width: 35rem;
+    margin-top: -3rem;
+    max-height: 14rem;
+    overflow-y: scroll;
+}
+h1{
+    color: #198754;
+}
+
+li.list-group-item{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.row{
+    height: 70vh;
+}
+.result-box{
+    /* border: 1px solid green; */
+    max-height: 100%;
+    margin-top: 1rem;
+    background-color: white;
+}
+
+@media (max-width:991px){
+    form,
+    .list-group{
+        width: 16rem;
+    }
+    
+}
